@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>我的技术与生活——小站首页 | Hexo</title>
+  <title>我的技术与生活——algorithm | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="shortcut icon" href="/imgs/shortcut-icon.ico" type="image/x-icon">
   <link rel="stylesheet" href="/css/public.css" />
@@ -16,7 +16,7 @@
 
   <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
   <script>
-    document.title = `我的技术与生活——小站首页`
+    document.title = `我的技术与生活——algorithm`
   </script>
 <meta name="generator" content="Hexo 6.3.0"></head>
 
@@ -193,7 +193,7 @@
   const ipt = document.querySelector('#search-input')
   const btn = document.querySelector('#search-btn')
   const layer = document.querySelector('#search-layer')
-  const posts = JSON.parse(`[{"title":"","path":"2023/09/27/算法/"},{"title":"Hello World","path":"2023/09/27/hello-world/"}]`)
+  const posts = JSON.parse(`[{"title":"Hello World","path":"2023/09/27/hello-world/"},{"title":"algorithm","path":"2023/09/27/algorithm/"}]`)
   ipt.addEventListener('keyup', e => {
     if (e.key === 'Enter') {
       handleSearch()
@@ -351,7 +351,7 @@
 
 <div class="article-container">
   <div class="article">
-    <h1 class="article-title"></h1>
+    <h1 class="article-title">algorithm</h1>
     <div class="article-info">
       <div class="article-info--item">
         <div class="article-info--info">
@@ -367,25 +367,24 @@
             
           </div>
           
-          <p class="article-info--date">日期：2023-09-27 19:11:51</p>
+          <p class="article-info--date">日期：2023-09-27 19:57:52</p>
         </div>
         <img src="/imgs/default-cover.webp" alt="" class="article-cover">
       </div>
     </div>
     <article class="article-content markdown-body">
-      <p>title: 算法<br>date: 2023-09-27 19:11:51<br>tags: suan</p>
-<h1 id="递归"><a href="#递归" class="headerlink" title="递归"></a>递归</h1><p>递归的概念</p>
+      <h1 id="递归"><a href="#递归" class="headerlink" title="递归"></a>递归</h1><p>递归的概念</p>
 <p>简单的说：递归就是方法自己调用自己，每次调用时传入不同的变量，<strong>递归有助于编程者解决复杂的问题</strong>，同时可以让代码变得简洁</p>
 <p><strong>递归调用机制：</strong></p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Recursion_Test</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="comment">//通过打印，理解递归调用机制</span></span><br><span class="line">         test(<span class="number">4</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">   <span class="keyword">public</span> <span class="keyword">static</span>  <span class="keyword">void</span> <span class="title function_">test</span><span class="params">(<span class="type">int</span> n)</span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (n&gt;<span class="number">2</span>)&#123;</span><br><span class="line">             test(n-<span class="number">1</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(<span class="string">&quot;n=&quot;</span>+n);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p><img src="/images/rec_01.png"></p>
+<p><img src="E:\blog\source\images\rec_01.png" alt=" "></p>
 
     </article>
     
     <div class="read-nums">
       <!-- id 将作为查询条件 -->
-      <span id="2023/09/27/算法/" class="leancloud_visitors" data-flag-title="Your Article Title">
+      <span id="2023/09/27/algorithm/" class="leancloud_visitors" data-flag-title="Your Article Title">
         <em class="post-meta-item-text">浏览量</em>
         <i class="leancloud-visitors-count"></i>
       </span>
@@ -431,7 +430,7 @@
     recordIP: config.recordIP,
     visitor: config.visitor,
     enableQQ: config.enableQQ,
-    path: '2023/09/27/算法/'
+    path: '2023/09/27/algorithm/'
   })
 </script>
 
