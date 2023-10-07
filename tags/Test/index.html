@@ -193,7 +193,7 @@
   const ipt = document.querySelector('#search-input')
   const btn = document.querySelector('#search-btn')
   const layer = document.querySelector('#search-layer')
-  const posts = JSON.parse(`[{"title":"NoStep_NoMile","path":"2023/09/27/NoStep-NoMile/"},{"title":"algorithm","path":"2023/09/27/algorithm/"},{"title":"Python_temp","path":"2023/09/30/Python-temp/"},{"title":"Hello World","path":"2023/09/27/hello-world/"}]`)
+  const posts = JSON.parse(`[{"title":"NoStep_NoMile","path":"2023/09/27/NoStep-NoMile/"},{"title":"Python_temp","path":"2023/09/30/Python-temp/"},{"title":"algorithm","path":"2023/09/27/algorithm/"},{"title":"Hello World","path":"2023/09/27/hello-world/"}]`)
   ipt.addEventListener('keyup', e => {
     if (e.key === 'Enter') {
       handleSearch()
@@ -508,7 +508,7 @@
   }
 
   setOperateItem()
-  const musics = JSON.parse(`[{"name":"我","artist":"Jolin","url":"https://wsaudiobssdlbig.yun.kugou.com/202309271807/473ed69a0e3a6a07b2e5dde209af5a2b/bss/extname/wsaudio/2d2a98f50182c21626cfcb328a2dc549.mp3","cover":"https://wsingbssdl.kugou.com/478a3cb9733aa2854e84962a0d6b8270.png_180x180.png"},{"name":"可爱女人","artist":"Joy","url":"https://wsaudiobssdlbig.yun.kugou.com/202309271814/7e4f2c32f32d984fd9013486c71258e4/bss/extname/wsaudio/badc1dae809c241595f9ddd28e0009fc.mp3","cover":"https://wsingbssdl.kugou.com/ee613e5f480f939e7b1ce32b79566213.jpg_200x200.jpg"}]`)
+  const musics = JSON.parse(`[{"name":"我","artist":"Jolin","url":"http://5sing.kugou.com/bz/1913913.html","cover":"https://wsingbssdl.kugou.com/478a3cb9733aa2854e84962a0d6b8270.png_180x180.png"},{"name":"可爱女人","artist":"Joy","url":"https://wsaudiobssdlbig.yun.kugou.com/202309271814/7e4f2c32f32d984fd9013486c71258e4/bss/extname/wsaudio/badc1dae809c241595f9ddd28e0009fc.mp3","cover":"https://wsingbssdl.kugou.com/ee613e5f480f939e7b1ce32b79566213.jpg_200x200.jpg"}]`)
   const ap = new APlayer({
     container: document.querySelector('#aplayer'),
     audio: musics,
